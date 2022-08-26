@@ -382,7 +382,11 @@ Basta incluir o HTML em seu documento Markdown. O MkDocs não documenta isso por
 
 - Para qualquer marcação que não seja coberta pela sintaxe do Markdown, basta usar o próprio HTML. Não há necessidade de prefaciá-lo ou delimitá-lo para indicar que você está mudando de Markdown para HTML; basta usar as tags.
 
-- As únicas restrições são que os elementos HTML em nível de bloco — por exemplo, <div>, <table>, <pre>, <p>, etc. — devem ser separados do conteúdo circundante por linhas em branco, e as tags de início e fim do bloco não devem ser recuadas com tabulações ou espaços. Markdown é inteligente o suficiente para não adicionar tags <p> extras (indesejadas) em torno de tags de nível de bloco HTML.
+- As únicas restrições são que os elementos HTML em nível de bloco 
+```
+— por exemplo, <div>, <table>, <pre>, <p>, etc. — 
+```
+devem ser separados do conteúdo circundante por linhas em branco, e as tags de início e fim do bloco não devem ser recuadas com tabulações ou espaços. Markdown é inteligente o suficiente para não adicionar tags <p> extras (indesejadas) em torno de tags de nível de bloco HTML.
 
 Observe que a sintaxe de formatação Markdown não é processada em tags HTML de nível de bloco. Por exemplo, você não pode usar *ênfase* no estilo Markdown dentro de um bloco HTML.
 
