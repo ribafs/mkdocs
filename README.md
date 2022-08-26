@@ -357,6 +357,8 @@ Também mostrará avisos importantes:
 - Quando inserimos uma entrada indevida no mkdocs.yml
 - Etc
 
+As vezes erramos porque usamos uma extenç
+
 É importante ficar de olhos nas mensagens para ir corrigindo e efetuar o build somente quando não houver qualquer erro ou warning
 
 Idealmente não deve haver nenhum warning no terminal/prompt. Inclusive assim ele roda muito mais rápido.
