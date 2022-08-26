@@ -32,6 +32,8 @@ O MkDocs é um gerador de site estático rápido e simples, voltado para a const
 
 Usando um bom template podemos criar um site genérico e não somente para documentação, como mostrarei neste tutorial.
 
+Com certeza n
+
 
 ## Alguns recursos que encontrei
 
@@ -47,6 +49,7 @@ Usando um bom template podemos criar um site genérico e não somente para docum
 - Podemos usar o Git para sincronizar o repositório local com o remoto, enviando o site inteiro via terminal
 - Segurança, também por conta de ser estático
 - Responsivo, sendo visualizado inclusive em dispositivos mobile
+- Consideravelmente rápido
 - ...
 
 ## Instalação
