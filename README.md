@@ -229,13 +229,13 @@ O mkdocs tem seu código fonte em python, mas podemos sobrescrever muita coisa, 
 Veja abaixo algumas dicas para sobrescrever alguns elementos das páginas.
 
 Override do footer
-
+```
 ├─ overrides/
 │  └─ partials/
 │     └─ footer.html
 │      main.html
 └─ mkdocs.yml
-
+```
 
 ### Remover next e previous da barra de navegação
 
