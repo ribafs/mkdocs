@@ -181,7 +181,7 @@ https://www.mkdocs.org/user-guide/configuration/
 Gosto de criar dentro da pasta docs, uma estrutura de pastas correspondente a estrutura do menu que crio no mkdocs.yml.
 
 Pastas e arquivos:
-
+```
 backend
     php
         index.md
@@ -192,9 +192,9 @@ backend
         index.md
         mvc
             index.md
-
+```
 mkdocs.yml:
-
+```
     - Back-end:
         - PHP: 
             - Introdução: backend/php/index.md
@@ -205,6 +205,7 @@ mkdocs.yml:
             - Introdução: backend/phpoo/index.md
             - MVC: 
                 - Introdução: backend/phpoo/mvc/index.md
+```
 
 https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
 
@@ -252,10 +253,10 @@ Contendo
 
 
 E adicionar ao mkdocs.yml:
-
+```
 theme:
   custom_dir: docs/overrides
-
+```
 
 
 ### CSS Extra
@@ -265,37 +266,37 @@ Para adicionar um css extra, criar a apsta
 docs/assets/css/extra.css
 
 E indicar no mkdocs.yml
-
+```
 extra_css:
     - assets/css/extra.css
     - 'https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=IBM+Plex+Sans&display=swap'
-
+```
 
 #### Como ocultar o rodapé default:
 
 "Documentation built with MkDocs"
 
 Adicionar ao extra.css:
-
+```
 footer{display: none}
-
+```
 
 #### Ocultar o painel lateral esquerdo
 
 No extra.css assim:
-
+```
 .bs-sidebar{
     display: none;
 }
-
+```
 #### Ocultar search e Edit on Github
 
 Adicionar ao extra.css
-
+```
 .nav-item{
     display: none;
 }
-
+```
 
 ### Javascript Extra
 
@@ -304,26 +305,26 @@ Para adicionar um css extra, criar a apsta
 docs/assets/js/extra.js
 
 E indicar no mkdocs.yml
-
+```
 extra_javascript:
     - assets/s/extra.js
     - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
-
+```
 
 ## Gerando o site em HTML
 
 O comando mkdocs build gera o site em HTML para enviar para o servidor
-
+```
 mkdocs build
 
 mkdocs build --clean
-
+```
 Cria a pasta site contendo todo o site que se encontra em docs no formato HTML
-
+```
 mkdocs build --help
-
+```
 Após executar o comando mkdocs build a estrutura do site será criada em HTML na pasta site
-
+```
 blog/docs
     index.md
 blog/site
@@ -339,15 +340,18 @@ blog/site
 blog/mkdocs.yml
 
 mkdocs gh-deploy
-
+```
 
 ## Debugando
 
 Após executar o comando
+```
 mkdocs serve
-
+```
 Ele acusará qualquer erro fatal, parando e não exibindo a página
+
 Também mostrará avisos importantes:
+
 - Quando inserimos um link em mkdocs.yml nav e não adicionamos o respectivo arquivo
 - Quando fazemos o contrário, adicionamos um arquivo e não linkamos no nav
 - Quando inserimos uma entrada indevida no mkdocs.yml
@@ -402,14 +406,14 @@ Podemos criar favicon partindo de uma foto ou de uma logo da empresa. Sugestão:
 https://www.favicon-generator.org/
 
 No mkdocs.yml
-
+```
 theme:
     favicon: img/favicon.ico
-
+```
 Ou 
-
+```
 favicon: https://www.apache.org/logos/res/sedona/sedona.png
-
+```
 
 ## Site de exemplo
 
@@ -475,6 +479,7 @@ favicon: https://www.apache.org/logos/res/sedona/sedona.png
 ```
 
 ### Menu criado no mkdocs.yml, na seção nav
+
 ```bash
 site_name: RibaFS Portal
 site_url: https://ribafs.github.io
@@ -705,11 +710,11 @@ Left         | Center        | Right
 ```
 
 Alinhamento usando os dois pontos
-
+```
 - : esquerda
 - direita :
 - : centro :
-
+```
 
 ### Referências
 
