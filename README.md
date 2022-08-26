@@ -6,7 +6,7 @@ Usando o gerador de sites estáticos MkDocs e um menu com Bootstrap tipo dropdow
 Confira em https://ribafs.github.io o resultado
 
 - Introdução
-- Vantagens
+- Recursos
 - Instalação
     Linux
     Windows
@@ -33,19 +33,18 @@ O MkDocs é um gerador de site estático rápido e simples, voltado para a const
 Usando um bom template podemos criar um site genérico e não somente para documentação, como mostrarei neste tutorial.
 
 
-## Algumas vantagens que encontrei
+## Alguns recursos que encontrei
 
 - Facilidade na criação do site e na alimentação e manutenção do conteúdo. A estrutura básica do site é criada com apenas um comando.
 - Tem suporte ao markdown, que facilita muito a criação de conteúdo
 - Também suporta boa parte do HTML, CSS, Javascript e Bootstrap
 - Criação do menu dropdown com multinível extremamente facilitada, como veremos
 - Podemos usar um bom editor HTML WysiWyg para criar confortavelmente o conteúdo, formatar, inserir imagens, áudio e vídeo. Visualizar o código fonte, copiar e colar no arquivo do MkDocs
-- Busca por todo o site usando autocompletar
+- Busca por todo o site usando autocompletar que já vem pronta
 - Highlight de código fonte (podendo numerar as linhas)
-- Menu hanburger nativo para mobile 
+- Menu hanburger nativo para mobile  que já vem implementado
 - Podemos abrigar gratuitamente em hospedagens como Github, Gitlab e outras
 - Podemos usar o Git para sincronizar o repositório local com o remoto, enviando o site inteiro via terminal
-- Por cotna de gerar um site em HTML estático podemos publicar gratuitamente no Github, Gitlab e outros
 - Segurança, também por conta de ser estático
 - Responsivo, sendo visualizado inclusive em dispositivos mobile
 - ...
