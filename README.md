@@ -45,6 +45,9 @@ Usando um bom template podemos criar um site genérico e não somente para docum
 - Menu hanburger nativo para mobile 
 - Podemos abrigar gratuitamente em hospedagens como Github, Gitlab e outras
 - Podemos usar o Git para sincronizar o repositório local com o remoto, enviando o site inteiro via terminal
+- Por cotna de gerar um site em HTML estático podemos publicar gratuitamente no Github, Gitlab e outros
+- Segurança, também por conta de ser estático
+- ...
 
 ## Instalação
 
