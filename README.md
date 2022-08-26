@@ -660,14 +660,14 @@ Linagens suportadas - http://pygments.org/languages/
 
 
 ### Link interno
-
+```
 [Texto do link](#link-interno)
-
+```
 
 ### Link externo
-
+```
 [GitHub](https://github.com)
-
+```
 
 ### Lista ordenada
 
@@ -686,11 +686,13 @@ Linagens suportadas - http://pygments.org/languages/
 ```
 
 ### Imagens
-
+```
 ![](assets/img/imagem.png)
-
+```
+ou
+```
 ![Alt ou Title da imagem](assets/img/imagem.png)
-
+```
 
 ### Tabelas em markdown
 
