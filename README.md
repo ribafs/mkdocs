@@ -49,6 +49,7 @@ Usando um bom template podemos criar um site genérico e não somente para docum
 ## Instalação
 
 Ele é um software em python, por isso tem como requisito o Python 3.8.2.
+
 https://www.mkdocs.org/user-guide/installation/
 
 ### Linux Mint 21
