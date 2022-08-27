@@ -3,7 +3,7 @@
 Criando sites em HTML estático da forma mais prática que conheço e com ótimos recursos.
 Usando o gerador de sites estáticos MkDocs e um menu com Bootstrap tipo dropdown multinível.
 
-Confira em https://ribafs.github.io o resultado
+Confira em <a href="https://ribafs.github.io" target="_blank">https://ribafs.github.io</a> o resultado
 
 - Introdução
 - Recursos
