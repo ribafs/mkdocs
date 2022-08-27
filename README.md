@@ -611,6 +611,12 @@ Esta estrutura acima está na Github page abaixo:
 
 https://ribafs.github.io
 
+## Os fontes
+
+Os fontes do site criado com este tutorial estão neste repositótio na pasta fontes:
+
+https://github.com/ribafs/mkdocs-ribafs/fontes
+
 
 ## Dicas Extras
 

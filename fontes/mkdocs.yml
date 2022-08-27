@@ -1,0 +1,125 @@
+site_name: RibaFS Portal
+site_url: https://ribafs.github.io
+site_description: Portal do Ribamar FS
+site_author: Ribamar FS
+site_dir: site/
+
+repo_url: https://github.com/ribafs//ribafs-portal
+
+docs_dir: docs/
+
+extra_css:
+    - assets/css/extra.css
+extra_javascript:
+#    - assets/js/script.js
+
+theme:
+    name: darkly
+    custom_dir: docs/overrides
+    favicon: img/favicon.ico
+    highlightjs: true
+    hljs_languages:
+        - php
+        - html
+
+markdown_extensions:
+  markdown.extensions.codehilite:
+    css_class: highlight
+    pymdownx.highlight:
+      guess_lang: false
+      linenums: true    
+
+plugins:
+    - search:
+        indexing: full
+
+nav:
+#    - Início: index.md
+    - index.md
+    - Front-end:
+        - HTML:
+            - Introdução: frontend/html/index.md
+            - TAGs: frontend/html/tags.md
+        - CSS:
+            - Introdução: frontend/css/index.md
+        - JavaScript:
+            - Introdução: frontend/js/index.md
+            - Muito conteúdo: https://ribafs.github.io/javascript
+        - Bootstrap:
+            - Introdução: frontend/bs/index.md
+        - React:
+            - Introdução: frontend/react/index.md
+        - LocalStorage:
+            - Introdução: frontend/localstorage/index.md
+        - IndexedDb:
+            - Introdução: frontend/indexeddb/index.md
+        - WebSQL:
+            - Introdução: frontend/websql/index.md
+
+    - Back-end:
+        - Ambiente: 
+            - Introdução: backend/ambiente/index.md
+            - Windows: backend/ambiente/windows/index.md
+            - Linux: backend/ambiente/linux/index.md
+        - AJAX: 
+            - Introdução: backend/ajax/index.md
+        - API: 
+            - Introdução: backend/api/index.md
+        - PHP: 
+            - Introdução: backend/php/index.md
+        - PDO: 
+            - Introdução: backend/pdo/index.md
+        - PHP-OO: 
+            - Introdução: backend/phpoo/index.md
+            - MVC: 
+                - Introdução: backend/phpoo/mvc/index.md
+                - Framework do zero: backend/phpoo/mvc/fw-zero.md
+        - SGBD: 
+            - Introdução: backend/php/index.md
+            - MySQL: 
+                - Introdução: backend/sgbd/mysql/index.md
+            - PostgreSQL: 
+                - Introdução: backend/sgbd/postgres/index.md
+            - SQLite: 
+                - Introdução: backend/sgbd/sqlite/index.md
+        - CMS:
+            - Joomla: 
+                - Introdução: backend/cms/joomla/index.md
+            - Afternoom: 
+                - Introdução: backend/cms/afternoom/index.md
+        - Framework:
+            - Laravel: 
+                - Introdução: backend/framework/laravel/index.md
+            - Codeigniter: 
+                - Introdução: backend/framework/ci/index.md
+
+    - DevOps:
+        - Git: 
+            - Introdução: devops/git/index.md
+        - GitHub: 
+            - Introdução: devops/github/index.md
+        - Docker: 
+            - Introdução: devops/docker/index.md
+        - Heroku: 
+            - Introdução: devops/heroku/index.md
+
+    - Linux:
+        - Desktop: 
+            - Introdução: linux/desktop/index.md
+        - Scripts: 
+            - Introdução: linux/scripts/index.md
+        - Diferenças Linux x Windows: linux/linuxwindows.md
+
+    - Ferramentas:
+        - HTML Live: ferramentas/html-live/index.html
+        - MkDocs: 
+            - Introdução: ferramentas/mkdocs/index.md
+    - Sobre: 
+        - Currículo: sobre/curriculo.md
+        - Repositórios: https://github.com/ribafs/alguns-repos
+        - Livros free: sobre/livros.md
+        - Sites anteriores: sobre/sites.md
+        - Contato: sobre/contato.md
+
+    - Mapa do site: mapa.md
+

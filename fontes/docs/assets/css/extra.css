@@ -1,0 +1,36 @@
+.fonts{
+    color: #598cbf;
+}
+
+.fonts-light{
+    color: #5288bf;
+}
+
+@media only screen and (max-width: 478px) {
+    .logo {
+        left: 130px;
+    }
+    .footer{
+        padding-left: 100px
+    }
+}
+@media only screen and (min-width: 478px) {
+    .logo {
+        left: -20px;
+    }
+}
+
+.footer {
+    text-align:center;
+    position:fixed;
+    left: 0%;
+    bottom:0px;
+    background-color: #264f77;
+}
+
+footer{display: none}
+
+.bs-sidebar{
+    display: none;
+}
+
