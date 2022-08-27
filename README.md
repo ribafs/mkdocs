@@ -1,7 +1,24 @@
 # Sites estáticos práticos com MkDocs
 
-Criando sites em HTML estático da forma mais prática que conheço e com ótimos recursos.
-Usando o gerador de sites estáticos MkDocs e um menu com Bootstrap tipo dropdown multinível.
+Gosto muito de estar criando conteúdo, artigos/tutoriais e projetos com aplicativos e de divulgar isso.
+
+Minha ferramenta preferida de criação de sites para produção de conteúdo até recentemente era o CMS Joomla, que oferece uma forma muito confortável de produzir conteúdo.
+
+Então conheci o Github que me mostrou o markdown e me ofereceu a oportunidade de criar sites em HTML estático gratuitamente (github pages). De 8 anos para cá eu tenho criado diversos sites (Github pages) e repositórios usando markdown, que é muito prático para os respositórios (https://github.com/ribafs).
+
+Para criar sites com Joomla preciso de um servidor com backend, PHP, MySQL, etc  e em geral preciso pagar por isso e como não monetizo meus sites fico procurando alternativas free para meu site. Atualmente meu domínio ribamar.net.br está no linode e meu site está usando Joomla, mas já estou migrando para o Github (https://ribafs.github.io/).
+
+Há algum tempo descobri o MkDocs, que é uma exceclente ferramenta para criação de sites de documentação (https://ribafs.github.io/laravel-acl/). Mas pesquisando com calma percebi que posso criar sites ricos, semelhantes aos que crio com o Joomla.
+
+Então criei a estrutura do meu site contendo toda a estrutura que pretendo divulgar. Comecei a migrar meu site para o Github e logo estarei mudando o ribamar.net.br para cá, mas veja que muitas seções ainda não tem conteúdo.
+
+A descoberta de tempaltes para o MkDocs que suportam bootstrap e menus dropdown multinível e a facilidade de criar conteúdo com ele aliado ao editor SunEditor, no qual produzo conteúdo como se estivesse no Joomla. Isso fez com que me decidisse a trocar o Linode pelo Github.
+
+Criei um tutorial bem detalhado de como criei o site https://ribafs.github.io/ e o coloquei neste repositório abaixo, juntamente com os fontes do site
+
+https://github.com/ribafs/mkdocs-ribafs
+
+Sei que não atende a todas as necessidades de  criação de sites, mas dê uma olhada com calma pois pode ser útil para algum certo site.
 
 Confira em <a href="https://ribafs.github.io" target="_blank">https://ribafs.github.io</a> o resultado
 
