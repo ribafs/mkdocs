@@ -237,6 +237,16 @@ https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
 
 Criar o conteúdo de cada arquivo usando markdown ou HTML.
 
+Acesse
+
+https://ribafs.github.io/editor.html
+
+Veja que eu mantenho um editor HTML no servidor, para facilitar que eu mexa no conteúdo onde estiver.
+
+Eu crio ou altero o conteúdo com o conforto de um editor HTML WysiWyg, formatando o texto, inserindo imagens, vídeos, etc. Ao concluir clico no botão que mostra o código fonte, seleciono o texto, copio e colo no novo arquivo .md.
+
+https://github.com/JiHong88/SunEditor
+
 
 ## Executando o site
 
