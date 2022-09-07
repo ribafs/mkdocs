@@ -178,7 +178,7 @@ Aqui encontramos vários screenshot das opções de template que podemos usar se
 http://mkdocs.github.io/mkdocs-bootswatch/
 
 ```bash
-pip3 install mkdocs-bootswatch
+sudo pip3 install mkdocs-bootswatch
 ```
 
 Agora selecione o que mais gosta nos screenshots
