@@ -14,9 +14,21 @@ Então criei a estrutura do meu site contendo toda a estrutura que pretendo divu
 
 A descoberta de tempaltes para o MkDocs que suportam bootstrap e menus dropdown multinível e a facilidade de criar conteúdo com ele aliado ao editor SunEditor, no qual produzo conteúdo como se estivesse no Joomla. Isso fez com que me decidisse a trocar o Linode pelo Github.
 
-Criei um tutorial bem detalhado de como criei o site https://ribafs.github.io/ e o coloquei neste repositório abaixo, juntamente com os fontes do site
+## URL deste repositório
 
 https://github.com/ribafs/mkdocs-ribafs
+
+## Dicas sobre MkDocs
+
+- No mkdocs.yml
+
+Usar no nav somente espaços, 4 espaços não usar tab
+
+- Nos links
+
+Não usar makkdown para criar os links, mas sim HTML pois podemos usar target="_blank"
+
+## Uso do MkDocs
 
 Sei que não atende a todas as necessidades de  criação de sites, mas dê uma olhada com calma pois pode ser útil para algum certo site.
 
