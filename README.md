@@ -26,13 +26,13 @@ Usar no nav somente espaços, 4 espaços não usar tab
 
 - Nos links
 
-Não usar makkdown para criar os links, mas sim HTML pois podemos usar target="_blank"
+Não usar makkdown para criar os links, mas sim HTML pois podemos usar target="_blank". Aqui nos README.md o link em HTML com target não funciona.
 
 ## Uso do MkDocs
 
 Sei que não atende a todas as necessidades de  criação de sites, mas dê uma olhada com calma pois pode ser útil para algum certo site.
 
-Confira em <a href="https://ribafs.github.io" target="_blank">https://ribafs.github.io</a> o resultado
+Confira em https://ribafs.github.io
 
 - Introdução
 - Recursos
