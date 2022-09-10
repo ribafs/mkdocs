@@ -1,5 +1,28 @@
 # Sites estáticos práticos com MkDocs
 
+## Conteúdo
+
+- Dicas sobre MkDocs
+- Usando
+- Recursos
+- Instalação
+- Criação de site
+- index.md
+- mkdocs.yml
+- Instalação do template
+- Criando páginas e adicionando ao mkdocs.yml
+- Criando conteúdo
+- Rodando o site localmente
+- Overrides
+- CSS Extra
+- Javascript extra
+- Gerando o site em HTML - build
+- Debugando
+- Site de exemplo
+- Dicas extras
+- Resumo do Markdown
+- Referências
+
 Gosto muito de estar criando conteúdo, artigos/tutoriais e projetos com aplicativos e de divulgar isso.
 
 Minha ferramenta preferida de criação de sites para produção de conteúdo até recentemente era o CMS Joomla, que oferece uma forma muito confortável de produzir conteúdo.
@@ -182,7 +205,7 @@ https://yaml.org/
 Dica: sempre que adicionar algo ao mkdocs.yml e tiver algumas dúvida sobre a sintaxe, verifique o terminal e veja as mensagens, então corrija se for o caso.
 
 
-## Instalação de um tempalte com bootstrap
+## Instalação de um template com bootstrap
 
 Minha preferência é por temas que usam bootstrap, pois me oferecem maior flexibilidade, mas existem outros templates sem bootstrap até mais populares. Fique a vontade.
 
@@ -776,17 +799,15 @@ Alinhamento usando os dois pontos
 - : centro :
 ```
 
-### Referências
-
-- https://www.code2bits.com/cheat-sheet-markdown/ 
-- https://www.cheatography.com/lucbpz/cheat-sheets/the-ultimate-markdown/ 
-
-
 ## Referências
 
 ### Diversas
 
 https://mkdocs.org
+
+https://www.code2bits.com/cheat-sheet-markdown/ 
+
+https://www.cheatography.com/lucbpz/cheat-sheets/the-ultimate-markdown/ 
 
 https://github.com/mkdocs/mkdocs/wiki
 
