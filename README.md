@@ -70,6 +70,7 @@ Com certeza n
 - Tem suporte ao markdown, que facilita muito a criação de conteúdo
 - Também suporta boa parte do HTML, CSS, Javascript e Bootstrap
 - Criação do menu dropdown com multinível extremamente facilitada, como veremos
+- Menu fixo no topo
 - Podemos usar um bom editor HTML WysiWyg para criar confortavelmente o conteúdo, formatar, inserir imagens, áudio e vídeo. Visualizar o código fonte, copiar e colar no arquivo do MkDocs
 - Busca por todo o site usando autocompletar que já vem pronta
 - Highlight de código fonte (podendo numerar as linhas)
