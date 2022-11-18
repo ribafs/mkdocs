@@ -84,9 +84,6 @@ O MkDocs é um gerador de site estático rápido e simples, voltado para a const
 
 Usando um bom template podemos criar um site genérico e não somente para documentação, como mostrarei neste tutorial.
 
-Com certeza n
-
-
 ## Alguns recursos que encontrei
 
 - Facilidade na criação do site e na alimentação e manutenção do conteúdo. A estrutura básica do site é criada com apenas um comando.
@@ -183,6 +180,33 @@ Veja que a sintaxe é markdown. Geralmente criar eu prefiro criar o conteúdo us
 site_name: My Docs
 
 Apenas o nome do site.
+
+
+### Overrides dos blocos do template
+```css
+{% extends "base.html" %}
+
+{% block footer %}
+    <div class="row">
+        <p class="footer col-lg-12 mb-0" style="padding-right: 150px"><i>Ribamar FS - 2022</i></p>
+    </div>
+{% endblock %}
+
+    site_meta: Contains meta tags in the document head.
+    htmltitle: Contains the page title in the document head.
+    styles: Contains the link tags for stylesheets.
+    libs: Contains the JavaScript libraries (jQuery, etc) included in the page header.
+    scripts: Contains JavaScript scripts which should execute after a page loads.
+    analytics: Contains the analytics script.
+    extrahead: An empty block in the <head> to insert custom tags/scripts/etc.
+    site_name: Contains the site name in the navigation bar.
+    site_nav: Contains the site navigation in the navigation bar.
+    search_button: Contains the search box in the navigation bar.
+    next_prev: Contains the next and previous buttons in the navigation bar.
+    repo: Contains the repository link in the navigation bar.
+    content: Contains the page content and table of contents for the page.
+    footer: Contains the page footer.
+```
 
 
 ### Sintaxe do mkdocs.yml
