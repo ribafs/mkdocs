@@ -183,7 +183,17 @@ Apenas o nome do site.
 
 
 ### Overrides dos blocos do template
+
+No arquivo
+
+overrides/main.html
+
+Que fica no mkdocs.yml:
 ```css
+theme:
+    name: darkly
+    custom_dir: sources/overrides
+
 {% extends "base.html" %}
 
 {% block footer %}
